@@ -1,0 +1,189 @@
+/* -------------Lesson 1----------- */
+/* Task 1 */
+:root {
+    background: white;
+}
+
+/* Task 2 */
+* {
+    color: black;
+}
+
+/* Task 3 */
+h1 {
+    background: rgb(133, 70, 205);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Task 4 */
+.green {
+    color: green;
+}
+
+/* Task 5 */
+#blue {
+    color: blue;
+}
+
+/* Task 6 */
+.box div {
+    background: green;
+    padding: 5px;
+}
+
+.box p {
+    background: red;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* Task 7 */
+.brown {
+    background: brown;
+    color: white;
+    padding: 5px;
+}
+
+/* Task 8 */
+ul > li {
+    background: red;
+    padding: 5px;
+}
+
+/* Task 9 */
+.header-button + span {
+    background: red;
+    padding: 5px;
+}
+
+/* Task 10 */
+.susid ~ p {
+    background: blue;
+    color: white;
+    padding: 5px;
+}
+
+/* Task 11 */
+.salo,
+#bread {
+    background: yellow;
+    padding: 5px;
+}
+
+/* -----------Lesson 2------------
+Task 1 */
+.first-task li:first-child {
+    color: white;
+}
+
+/* Task 2 */
+.second-task > ul:first-child li:first-child {
+    color: yellow;
+}
+
+/* Task 3 */
+.third-task ul:last-child li:first-child {
+    background: yellow;
+}
+
+/* Task 4 */
+.four-task ul li:last-child {
+    background: yellow;
+}
+
+/* Task 5 */
+.five-task ul:last-child li:last-child {
+    color: white;
+}
+
+/* Task 6 */
+.only-child-task div:only-child {
+    color: red;
+}
+
+/* Task 7 */
+.seven-task span:first-of-type {
+    background: red;
+}
+
+/* Task 8 */
+.eight-task span:last-of-type {
+    background: red;
+}
+
+/* Task 9 */
+.nine-task .text-wrapper p:only-of-type {
+    background: yellow;
+}
+
+/* ----------------Lesson 3--------------- */
+/* Task 1 */
+.lesson-three-task-one ul li a[href] {
+    color: white;
+}
+
+/* Task 2 */
+.lesson-three-task-two li[value] {
+    color: yellow;
+}
+
+/* Task 3 */
+.lesson-three-task-three li[value='3'] {
+    background: red;
+}
+
+/* Task 4 */
+.lesson-three-task-four button[class~='primary'] {
+    background: blue;
+}
+
+/* Task 5 */
+.lesson-three-task-five button[class|='secondary'] {
+    background: red;
+}
+
+/* Task 6 */
+.lesson-three-task-six ul li[class^='b'] {
+    background: white;
+    color: green;
+}
+
+/* Task 7 */
+.lesson-three-task-seven ul li[class*='on'] {
+    background: white;
+    color: green;
+}
+
+/* Task 8 */
+.lesson-three-task-eight [class$='s'] {
+    background-color: white;
+    color: blue;
+}
+
+/* Task 9 */
+h2::first-letter {
+    color: red;
+}
+
+/* Task 10 */
+.lesson-three-task-ten p:first-child::first-line {
+    background: yellow;
+}
+
+/* Task 11 */
+.lesson-three-task-eleven input::placeholder {
+    background: red;
+}
+
+/* Task 12 */
+.lesson-three-task-twelve ul li::before {
+    content: '➤';
+    margin-right: 5px;
+}
+
+/* Task 13 */
+.lesson-three-task-thirteen ul li::after {
+    content: '➤';
+    margin-left: 5px;
+}
