@@ -1,0 +1,109 @@
+/* Task 1 */
+.lesson-four-task-one .btn:hover {
+    background: yellow;
+    color: red;
+}
+
+/* Task 2 */
+.link:hover + .title {
+    color: green;
+}
+
+/* Task 3 */
+.lesson-four-task-three .link:visited {
+    color: yellow;
+}
+
+/* Task 4 */
+#sidebar .link {
+    color: red;
+}
+
+/* Task 5 */
+.lesson-four-task-five .btn:active {
+    background: orange;
+    border: none;
+}
+
+/* Task 6 */
+.lesson-four-task-six .btn:focus {
+    color: tomato;
+}
+
+/* Task 7 */
+#target:target {
+    background: greenyellow;
+    color: green;
+}
+
+/* Task 8 */
+#checkbox:checked ~ #target {
+    color: #fff;
+    background: blue;
+}
+
+/* Task 9 */
+p:lang(uk) {
+    color: blue;
+}
+
+/* Task 10 */
+form input:enabled {
+    color: red;
+    background-color: yellow;
+}
+
+/* Task 11 */
+.lesson-four-task-eleven input:disabled {
+    background: yellow;
+}
+
+/* Task 12 */
+.lesson-four-task-twelve input:read-write {
+    background: yellow;
+}
+
+/* Task 13 */
+.lesson-four-task-thirteen input:read-only {
+    background: yellow;
+}
+
+/* Task 14 */
+input:valid {
+    background: green;
+}
+
+input:invalid {
+    background: red;
+}
+
+/* Task 15 */
+.lesson-four-task-fifteen form input:optional {
+    background: red;
+}
+
+/* Task 16 */
+input[type='number']:out-of-range {
+    color: red;
+}
+
+/* Task 17 */
+input[type='number']:in-range {
+    color: red;
+}
+
+/* Task 18 */
+.lesson-four-task-eighteen input:placeholder-shown {
+    background: red;
+}
+
+/* Task 19 */
+.lesson-four-task-nineteen:focus-within {
+    color: white;
+    background-color: yellow;
+}
+
+/* Task 20 */
+.lesson-four-task-twenty input:invalid {
+    background-color: red;
+}
