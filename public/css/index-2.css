@@ -99,7 +99,7 @@ p:lang(uk) {
 }
 
 /* Task 19 */
-.lesson-four-task-nineteen .btn-1:focus-within {
+.lesson-four-task-nineteen .btn:focus-within {
     color: white;
     background-color: yellow;
 }
