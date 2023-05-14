@@ -10,8 +10,8 @@
 }
 
 /* Task 3 */
-h1 {
-    /* background: rgb(133, 70, 205); */
+.bg-title {
+    background: rgb(133, 70, 205);
     padding: 5px;
     border-radius: 5px;
 }
