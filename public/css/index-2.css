@@ -6,7 +6,7 @@
 
 /* Task 2 */
 .link:hover + .title {
-    color: green;
+    background: green;
 }
 
 /* Task 3 */
@@ -21,13 +21,14 @@
 
 /* Task 5 */
 .lesson-four-task-five .btn:active {
-    background: orange;
+    background: blue;
     border: none;
 }
 
 /* Task 6 */
 .lesson-four-task-six .btn:focus {
-    color: tomato;
+    background-color: orange;
+    color: white;
 }
 
 /* Task 7 */
@@ -48,9 +49,9 @@ p:lang(uk) {
 }
 
 /* Task 10 */
-form input:enabled {
-    color: red;
+.form-control:enabled {
     background-color: yellow;
+    color: red;
 }
 
 /* Task 11 */
@@ -69,26 +70,26 @@ form input:enabled {
 }
 
 /* Task 14 */
-input:valid {
+.lesson-four-task-fourteen input:valid {
     background: green;
 }
 
-input:invalid {
+.lesson-four-task-fourteen input:invalid {
     background: red;
 }
 
 /* Task 15 */
-.lesson-four-task-fifteen form input:optional {
+.lesson-four-task-fifteen form textarea:optional {
     background: red;
 }
 
 /* Task 16 */
-input[type='number']:out-of-range {
+.lesson-four-task-sixteen input:out-of-range {
     color: red;
 }
 
 /* Task 17 */
-input[type='number']:in-range {
+.lesson-four-task-seventeen input:in-range {
     color: red;
 }
 
@@ -98,7 +99,7 @@ input[type='number']:in-range {
 }
 
 /* Task 19 */
-.lesson-four-task-nineteen:focus-within {
+.lesson-four-task-nineteen .btn-1:focus-within {
     color: white;
     background-color: yellow;
 }
